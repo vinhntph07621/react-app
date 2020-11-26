@@ -1,0 +1,161 @@
+.profile {
+  padding: 40px 0;
+
+  .card {
+    border-radius: 12px;
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    color: #252422;
+    margin-bottom: 20px;
+    position: relative;
+    border: 0 none;
+    transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1),
+      box-shadow 200ms ease;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    background-clip: border-box;
+  }
+ 
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload img
+{
+    cursor: pointer;
+}
+  .change-image {
+    margin-left: -43px;
+    overflow: hidden;
+    position: absolute;
+    width: 88px;
+    margin-top: -45px;
+    opacity: 0;
+  }
+  .change-image:hover{
+    opacity: 0.4;
+  }
+
+  .card-user .image {
+    height: 130px;
+  }
+  .card-user .image img {
+    border-radius: 12px;
+  }
+  .card .image {
+    overflow: hidden;
+    height: 200px;
+    position: relative;
+  }
+  img {
+    max-width: 100%;
+    border-radius: 3px;
+    vertical-align: middle;
+    border-style: none;
+  }
+
+  .card-user .card-body {
+    min-height: 240px;
+  }
+  .card .card-body {
+    padding: 15px 15px 10px 15px;
+  }
+  .card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+  }
+  .card-user .author {
+    text-align: center;
+    text-transform: none;
+    margin-top: -77px;
+  }
+  h6 {
+    text-align: left;
+    padding: 5px;
+  }
+  a {
+    color: #51cbce;
+    text-decoration: none !important;
+    background-color: transparent;
+  }
+  .card-user .avatar {
+    width: 124px;
+    height: 124px;
+    border: 1px solid #ffffff;
+    position: relative;
+  }
+  .card .avatar {
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    img {
+      max-width: 100%;
+      border-radius: 3px;
+      vertical-align: middle;
+      border-style: none;
+    }
+  }
+
+  .MuiBadge-anchorOriginBottomRightCircle {
+    right: 20%;
+    bottom: 15%;
+    transform: scale(1) translate(50%, 50%);
+    transform-origin: 100% 100%;
+}
+
+  .table {
+    a {
+      color: $bg-primary-x;
+    }
+  }
+
+  .detail {
+    .item-detail {
+      .detail-name {
+        display: flex;
+        padding-right: 20px;
+      }
+      .detail-status {
+        padding-left: 50px;
+        text-transform: normal;
+      }
+    }
+    .detail-name,
+    .detail-time,
+    .detail-email,
+    .detail-phone,
+    .detail-service,
+    .detail-people,
+    .detail-message {
+      color: $black-color;
+    }
+  }
+}
+.detail-sub {
+  .card-body {
+    border: none !important;
+  }
+
+  .detail-sub-item {
+    .detail-name,
+    .detail-time,
+    .detail-email,
+    .detail-phone,
+    .detail-service,
+    .detail-people,
+    .detail-message {
+      color: $black-color;
+      h6 {
+        opacity: 0.7;
+        font-size: 16px !important;
+        line-height: 40px;
+        font-weight: 600 !important;
+      }
+    }
+  }
+}

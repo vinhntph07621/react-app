@@ -1,0 +1,18 @@
+//style
+@import 'style/variables.scss';
+@import 'style/mixins/button.scss';
+@import 'style/mixins/input.scss';
+
+// components
+@import "layouts-view/User";
+@import "layouts-view/Profile";
+@import "layouts-view/Header";
+@import "layouts-view/Sidebar";
+@import "layouts-view/Input.scss";
+@import "layouts-view/Doctor.scss";
+@import "layouts-view/IconsDropDown.scss";
+
+
+
+//responsive
+@import "layouts-view/responsive";

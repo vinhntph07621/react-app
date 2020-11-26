@@ -1,0 +1,212 @@
+.signUp-signIn-page:before {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  content: "";
+  overflow: hidden;
+  opacity: 0.3 !important;
+  background-color: #000000;
+}
+
+.signUp-signIn-page {
+  background-image: url('../../img/user/login.png');
+  height: 630px;
+  background-size: cover;
+  background-position: top center;
+
+
+
+  .navbar {
+    padding: 40px 0;
+    height: 20px;
+
+    a {
+      text-decoration: none !important;
+      color: $white-color;
+    }
+
+    .nav-item {
+      display: flex !important;
+      list-style: none;
+      padding: 0 10px;
+
+      i {
+        margin-top: 5px !important;
+      }
+
+      a {
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+
+      &:hover {
+        background: hsla(0, 0%, 78%, .2);
+        color: #fff !important;
+        transition: all 1.5s;
+        text-align: center;
+      }
+    }
+
+  }
+
+
+  .card {
+    position: relative;
+    display: flex;
+    border: 0;
+    font-size: .875rem;
+    margin-bottom: 30px;
+    margin-top: 120px;
+    border-radius: 6px;
+    color: #333;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  }
+
+  .btn {
+    i {
+      color: #fff;
+    }
+  }
+
+  .card [class*=card-header-]:not(.card-header-icon):not(.card-header-text):not(.card-header-image) {
+    border-radius: 3px;
+    margin-top: -20px;
+    padding: 15px;
+  }
+
+  .card-title {
+    color: #fff;
+  }
+
+  .card .card-header-rose .card-icon,
+  .card .card-header-rose .card-text,
+  .card .card-header-rose:not(.card-header-icon):not(.card-header-text) {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px rgba(233, 30, 99, .4);
+  }
+
+  .card.bg-rose,
+  .card .card-header-rose .card-icon,
+  .card .card-header-rose .card-text,
+  .card .card-header-rose:not(.card-header-icon):not(.card-header-text),
+  .card.card-rotate.bg-rose .back,
+  .card.card-rotate.bg-rose .front {
+    background: linear-gradient(60deg, #ec407a, #d81b60);
+  }
+
+  .login-page .card-login .card-header {
+    margin-top: -40px !important;
+    margin-bottom: 20px;
+  }
+
+  .card [class*=card-header-] {
+    margin: 0 15px;
+    padding: 0;
+    position: relative;
+  }
+
+  .card .card-header {
+    z-index: 3 !important;
+  }
+
+  .login-page .card-login .card-body {
+    padding: 0 30px 0 10px;
+  }
+
+  .card .card-body {
+    padding: .9375rem 20px;
+    position: relative;
+  }
+
+  .card-description,
+  .description,
+  .footer-big p {
+    color: #999;
+  }
+
+  .bmd-form-group {
+    position: relative;
+  }
+
+  .input-group {
+    border: none !important;
+    padding-bottom: 10px;
+    padding: 10px 0;
+
+    ::placeholder {
+      opacity: 0.6;
+    }
+  }
+
+  .form-control {
+    border: none !important;
+    border-bottom: 1px solid rgba(191, 191, 191, 1) !important;
+  }
+
+  .input-group-prepend {
+    margin-right: -1px;
+
+
+  }
+
+  .input-group-text {
+    border: none !important;
+    background-color: $white-bg !important;
+  }
+
+  .input-group-append,
+  .input-group-prepend {
+    display: flex;
+  }
+
+  .login-page .card-login .card-body .input-group .form-control {
+    padding-bottom: 10px;
+    margin: 17px 0 0;
+  }
+
+  .card .card-body+.card-footer,
+  .card .card-footer {
+    padding-bottom: 35px;
+    padding-top: 10px;
+    margin: 0 15px 10px;
+    border-radius: 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card .card-footer {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+
+    a {
+      text-decoration: none !important;
+
+      &:hover {
+        background-color: #e91e63 !important;
+        transition: all 1.5s;
+        color: $white-bg !important;
+      }
+    }
+  }
+
+
+  .btn.btn-rose.btn-link,
+  .btn.btn-rose.btn-link:active,
+  .btn.btn-rose.btn-link:focus,
+  .btn.btn-rose.btn-link:hover {
+    background-color: transparent;
+    color: #e91e63;
+  }
+
+  .btn.btn-rose.btn-link {
+    box-shadow: none;
+  }
+
+}
